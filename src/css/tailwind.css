@@ -1,0 +1,120 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+
+a, .prose a {
+  color: #ffb61d;
+}
+a:hover, .prose a:hover {
+  text-decoration: none;
+}
+h1,
+h2,
+h3 {
+  color: white !important;
+}
+/* h2
+{
+  font-size: 1em;
+  padding: .5em 0
+} */
+
+.diagonal-h2 h2 {
+  font-weight: bold;
+  margin: 0 auto;
+  font-size: 3em;
+  transform: rotate(-3deg) skewy(3deg);
+}
+
+.diagonal-box.bg-violet{
+  @apply bg-violet-100;
+}
+.diagonal-h2.bg-violet {
+  @apply bg-violet-50;
+}
+.diagonal-box.bg-green{
+  @apply bg-green-100;
+}
+.diagonal-h2.bg-green {
+  @apply bg-green-50;
+}
+
+#headerSection .diagonal-h2{
+  margin-top: 3em;
+}
+.diagonal-box {
+  /* margin-top: -1px; */
+  transform: skewy(-3deg);
+}
+
+.content {
+  margin: 0 auto;
+  transform: skewy(3deg);
+}
+
+.diagonal-h2 {
+  padding: 1em 0;
+  margin-top: -1px;
+  transform: skewy(-3deg);
+}
+
+.gradient-h2 {
+  background-image: linear-gradient(45deg, #6303b1, #ff0099);
+}
+
+header {
+  position: relative;
+}
+header nav{
+  transform: skewy(-3deg);
+}
+header nav ul{
+  /* top: 6em; */
+}
+@media (max-width: 440px) { 
+  header nav ul{
+    top: 6em;
+  }
+}
+header nav a span{
+  transform: rotate(-3deg) skewy(3deg);
+}
+
+header nav a span{
+  transform: rotate(-3deg) skewy(3deg);
+}
+
+header .diagonal-box {
+  transform: skewy(-3deg) translateY(-50%);
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  height: 12em;
+}
+.site_name_sm, .site_name_md {
+  font-family: "dancing script";
+  transform: translate(-4px);
+}
+.site_name_sm{
+    display: none;
+}
+.site_name_md{
+    display: flex;
+}
+.site_name_sm, .site_name_md{
+  transform: rotate(-3deg) skewy(3deg);
+}
+@media (max-width: 440px) { 
+    .site_name_sm{
+        display: flex;
+    }
+    .site_name_md{
+        display: none;
+    }
+}
+
+.prose h3 {
+  color: white;
+}
