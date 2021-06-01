@@ -1,20 +1,20 @@
 ## About
 
-    I build this code for my personal website https://bruno.sarlo.uy mostly as a portfolio of my work. I might extend this Gatsby starter later to have a blog too.
+I build this code for my personal website https://bruno.sarlo.uy mostly as a portfolio of my work. I might extend this Gatsby starter later to have a blog too.
 
-    Feel free to re-use!
+Feel free to re-use!
 
 ## Features
 
-    * Some original design layout for your enjoyment
-    * Fully adatable, crossbrowser layout and text.
-    * Fontawesome
-    * Google font
-    * SEO optimized with React Helmet
-    * Tailwind incuded (based on https://github.com/mjsarfatti/gatsby-starter-tailwind-opinionated)
-    * Tailwind forms
-    * Contact form with PHP backend (based on https://github.com/frankagathos/gatsby-with-php-form)
-## 🚀 Quick start
+* Some original design layout for your enjoyment
+* Fully adatable, crossbrowser layout and text.
+* Fontawesome
+* Google font
+* SEO optimized with React Helmet
+* Tailwind incuded (based on https://github.com/mjsarfatti/gatsby-starter-tailwind-opinionated)
+* Tailwind forms
+* Contact form with PHP backend (based on https://github.com/frankagathos/gatsby-with-php-form)
+## Quick start
 
 1.  **Create a Gatsby site.**
 
@@ -52,7 +52,15 @@
     Edit info at `config.php` and `sendmail.php` files at `/static/api/contact` to your email.
     Edit the PHP form endpoint at `/src/components/Form.js`
 
+1.  **Build your website**
 
-1.  **Contribute**
+    When you are ready to publish your website:
+
+    ```shell
+    gatsby build
+    ```
+    
+    And publish the code at `/public`
+## Contribute
 
     Please don't hesitate in sending pull-requests or report issues, thanks!
